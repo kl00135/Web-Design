@@ -1,0 +1,8 @@
+home image: https://history-computer.com/fourth-generation-video-game-consoles-the-16-bit-generation/
+arcade image: https://freepngimg.com/png/113185-machine-game-arcade-free-clipart-hd
+NES image: https://commons.wikimedia.org/wiki/File:NES-Console-Set.png
+mega man sprites: https://www.sprites-inc.co.uk/sprite.php?local=X/X/Armors/X1/
+level geometry image: https://info.sonicretro.org/File:SonicXtremeCrystalFrostConceptArt03.jpg
+sonic xtreme image: https://info.sonicretro.org/Sonic_X-treme_(V40_prototype)
+Mario 64 screenshots: https://imgur.com/a/HNDfFH4 , https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/1995
+
