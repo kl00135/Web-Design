@@ -4,24 +4,70 @@
 <title>Web Research</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="styles.css">
+<style>h2{text-align: center;}</style>
 </head>
-<body>
+<body style="background-color: #a3cfd1;">
 <header>
-        <h1>Welcome to Gaming's Grandious</h1>
+<a href="index.html">Home</a> 
+<a href="90s.html">90's</a>
+<a href="transition.html">Transition</a>
+<a href="2000s.html">2000's</a>
+<a href="current.html">Current</a>
+<a href="reflection.html">Reflection</a>
+<a href="sources.html">Sources</a>
+        <h1>Current Year</h1>
     </header>
     <main>
+<div class="wrapper" style="background-color: #adc6c7;">
+<h2>The current era of gaming we live in today has refined and streamlined. In terms of appearences, we have moved past this 'futuristic' era and settled into a more simplistic marketing scheme. Consoles use solid colors and simple shapes, to give off a more professional look.</h2>
 
+    <script>
+        function showInfo() {
+            var selectBox = document.getElementById("selectBox");
+            var infoDisplay = document.getElementById("infoDisplay");
+            var imageDisplay = document.getElementById("imageDisplay");
+
+            var selectedOption = selectBox.value;
+
+            if (selectedOption === "New Xbox Interface") {
+                infoDisplay.innerHTML = "The New Xbox Interface: A more simplistic and modern design. It focuses on minimalism, and straightforward navigation for a user-friendly experience. It's streamlined visual style is very different from the experimental past.";
+                imageDisplay.src = "xboxUI.jpg";
+            } else if (selectedOption === "Old Xbox Interface") {
+                infoDisplay.innerHTML = "The Old Xbox Interface: A more futuristic and complex design. Note it's use of harsh greens, and spacious feeling. Almost like it's giving off the imperession this technology is alien, other worldly, and an experiance like no other.";
+                imageDisplay.src = "xboxUIold.jpg";
+            }
+        }
+    </script>
+<div class="centered_content">
+        <select id="selectBox" onchange="showInfo()">
+        <option value="New Xbox Interface">New Xbox Interface</option>
+        <option value="Old Xbox Interface">Old Xbox Interface</option>
+</select>
+
+<div id="infoDisplay">Select an option to display information here.</div>
+<img id="imageDisplay" src="xboxUI.jpg" alt="Image Display">
+</div>       
+
+
+<h2>Game design, has now been perfected down to a science. Now, even the most casual gamer knows what they want to look for in a video game. Thanks to the trial and error of the past, as well as gaming becoming a common hobby, quality in video games is much easier to spot. <br> <br> What also helps is the internet, and it's contributing to gaming reviews. Meaning there can easily be whole communities around video games and their effect on fans. Just years ago, we were still trying to master 3D, or figure out a rewarding gameplay loop to keep customers coming back. </h2>
+<br>
+<h2>Creators know what fans want to see in their products. Now you'll see developers who want to make a worth while game put in modes just for hardcore fans, giving them reason to continue enjoying the product. Weather it be a 'speedrun' challenge, tasking players to show their mastery by clearing the game as fast as possible, or a more difficult mode for that extra level of expertice. It shows that game developers have cracked the code to make their game enjoyable for everyone, short term and long term.</h2>
+</div>
     </main>
     <footer>
-        <!-- Footer links to other pages -->
-        <a href="index.html">Home</a>
+  <a href="2000s.html" class="arrow-link2"><img src="backarrow.png" alt="Arrow"></a>
+        <a href="index.html">Home</a> 
         <a href="90s.html">90's</a>
         <a href="transition.html">Transition</a>
         <a href="2000s.html">2000's</a>
         <a href="current.html">Current</a>
         <a href="reflection.html">Reflection</a>
         <a href="sources.html">Sources</a>
+ <a href="reflection.html" class="arrow-link"><img src="nextarrow.png" alt="Arrow"></a>
 <br>
-    </footer>
+    <h5>© Kade Levy <br> 
+    <a href="tel:+4045551555"> (404) 555-1555</a> | <a href="mailto:kadelevy@gmail.com">kadelevy@gmail.com</a> | Private Policy</h5>
+    
+</footer>
 </body>
 </html>

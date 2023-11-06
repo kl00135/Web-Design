@@ -16,6 +16,8 @@ footer {
     border-top: 2px #d2c4ff solid;
 }
 
+
+
 h1{
     text-align: center;
 }
@@ -44,6 +46,11 @@ p{
     width: 300px; 
     height: 200px;
     border: none;
+}
+
+.mario_timeline img{
+    width: 380px; 
+    height: 200px;
 }
 
 .button-container {
@@ -111,3 +118,56 @@ h6{
     height: auto; 
     margin: 5px; 
 }
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+}
+
+th, td {
+       padding: 10px;
+       text-align: center;
+}
+
+th {
+    background-color: lavender;
+}
+
+td {
+    border: 1px solid;
+}
+
+table img {
+            max-width: 150px; 
+            height: 150px; 
+        }
+
+header{
+         text-align: center;
+}
+
+
+.console_image_container img {
+            width: 300px;
+            height: 200px;
+}
+       
+
+.centered_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+.mario_timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+       
+
+img.centered {
+            display: block;
+            margin: 0 auto;
+        }
