@@ -38,6 +38,13 @@ p{
     text-align: justify;
 }
 
+
+.frontlogo img{
+  border:none;
+  width: 160px; 
+  height: 120px; 
+}
+
 .logo_image img{
     position: fixed;
     padding-left: 20em;
@@ -171,3 +178,26 @@ img.centered {
             display: block;
             margin: 0 auto;
         }
+
+.subscription-form {
+  text-align: left;
+}
+
+.subscription-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+
+.subscription-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscription-form button:hover {
+  background-color: #45a049;
+}
